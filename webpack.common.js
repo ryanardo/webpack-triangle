@@ -9,7 +9,7 @@ module.exports = {
 	},
 	plugins: [
 		new webpack.ProvidePlugin({
-			$: 'jquery',
+			$: 'jquery/dist/jquery.min.js',
 			jQuery: 'jquery'
 		}),
     new CleanWebpackPlugin(['build']),
